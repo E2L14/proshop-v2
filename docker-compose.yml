@@ -36,7 +36,7 @@ services:
     networks:
       - proshop-network
 
-proxy:
+  proxy:
     build:
       context: ./nginx
     container_name: proshop-proxy
